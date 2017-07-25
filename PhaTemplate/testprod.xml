@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+	<product>
+		<code> 123 </code>
+		<name> Coca Cola </name>
+		<price> 0.80 </price>
+	</product>
+	
+	<product>
+		<code> 123 </code>
+		<name> Coca Cola </name>
+		<price> 0.80 </price>
+	</product>
+	
+	<product>
+		<code> 123 </code>
+		<name> Coca Cola </name>
+		<price> 0.80 </price>
+	</product>
+	
+	<product>
+		<code> 123 </code>
+		<name> Coca Cola </name>
+		<price> 0.80 </price>
+	</product>
+	
+	<product>
+		<code> 123 </code>
+		<name> Coca Cola </name>
+		<price> 0.80 </price>
+	</product>
+	
+	<product>
+		<code> 123 </code>
+		<name> Coca Cola </name>
+		<price> 0.80 </price>
+	</product>
+</products>

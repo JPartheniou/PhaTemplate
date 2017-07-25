@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style>
+.ticket{
+	
+	display:none;
+}
+body{
+	color:#FFF;
+background-color:#000;
+}
+.vacation{
+	padding:5px;
+	color:#FFF;
+background-color:#666;
+border-radius:1em;
+        -moz-border-radius:1em;
+        -webkit-border-radius:1em;
+}
+.comments{
+	display: none;
+	}
+
+
+</style>
+
+</head>
+
+<body>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+
+<script>
+
+	
+	function showTicket(){
+		$(this).closest('.confirmation').find('.ticket').slideToggle("slow");
+	}
+	function showComments(){
+		$(this).closest('.confirmation').find('.comments').fadeToggle("slow");
+	}
+	
+	$(document).ready(function(){
+		$('.confirmation').on('click', 'button', showTicket);
+		
+		
+		$('.confirmation').on('mouseenter', 'h1', showTicket);
+		
+		$('.vacation').on('keyup', '.quantity', function(){
+			var price = +$(this).closest('.vacation').data('price');
+				//alert(price);
+			var quantity = +$(this).val();
+			
+			$(this).closest('.vacation').data('.total').text(price * quantity);
+			
+			$('.total').text(price * quantity);
+		});
+
+$('.confirmation').on('click', '.expand', showComments);		
+	/*$("#button1").click (function(event){
+		$("#info").toggle("slow");
+	});*/
+	/*$('.confirmation').on('click', 'button', function(){
+		$(this).closest('.confirmation').find('.ticket').slideToggle("slow")
+		});
+		$('.confirmation').on('mouseenter', 'h1', function(){
+		$(this).closest('.confirmation').find('.ticket').slideDown("slow")
+		});*/
+		
+	/*$("#button2").click (function(event){
+		$("#info2").toggle("slow");
+	});*/
+		
+});
+
+</script>
+
+
+    
+    
+<li class="confirmation">
+	
+	<a href="#" class="expand">Show Comments</a>
+    <ul class="comments">
+    <li>
+    	Ticket info1
+        </li>
+    </ul>
+	<h1>press the button</h1><br />
+	<button id="button1">FLIGHT DETAILS</button>
+	<ul id="info" class="ticket">
+	Ticket Info </ul>
+    
+	
+	</li>
+    <li class="confirmation">
+    <a href="#" class="expand">Show Comments</a>
+    <ul class="comments">
+    	<li>
+    	Ticket info2
+        </li>
+    </ul>
+	<h1>press the button</h1><br />
+	<button id="button2">FLIGHT DETAILS</button>
+	<ul id="info2" class="ticket">
+	Ticket Info </ul>
+	
+	</li>
+    
+    <div id="all" class="all">
+    	<ul>
+        	
+        </ul>
+    
+    
+    ----------------------------------------------------------------
+    
+    
+    <div id="vacation" class="vacation" data-price='399.99'>
+	<h3>Hawwaian Vacation</h3>
+    <p>$399.99 per ticket</p>
+    <p>
+    Tickets:
+    <input type='number' class='quantity' value='1' />
+    </p>
+    </div>
+    <p>Total Price: $<span class='total'>399.99</span></p>
+    
+    
+    <div id="vacation" class="vacation" data-price='599.99'>
+	<h3>Random Vacation</h3>
+    <p>$599.99 per ticket</p>
+    <p>
+    Tickets:
+    <input type='number' class='quantity' value='1' />
+    </p>
+    </div>
+    <p>Total Price: $<span class='total'>599.99</span></p>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".htaccess" server="students.acg.edu/www/" local="130567206871369131" remote="130373172000000000" Dst="2" />
+<file name=".roles" server="students.acg.edu/www/" local="130567206882249753" remote="130373172000000000" Dst="2" />
+<file name="access.cnf" server="students.acg.edu/www/" local="130567206893440393" remote="130373172000000000" Dst="2" />
+<file name="botinfs.cnf" server="students.acg.edu/www/" local="130567206901290842" remote="130373172000000000" Dst="2" />
+<file name="bots.cnf" server="students.acg.edu/www/" local="130567206898540685" remote="130373172000000000" Dst="2" />
+<file name="deptodoc.btr" server="students.acg.edu/www/" local="130567206901350846" remote="130377492000000000" Dst="2" />
+<file name="doctodep.btr" server="students.acg.edu/www/" local="130567206903170950" remote="130377492000000000" Dst="2" />
+<file name="service.cnf" server="students.acg.edu/www/" local="130567206903190951" remote="130377492000000000" Dst="2" />
+<file name="service.grp" server="students.acg.edu/www/" local="130567206903210952" remote="130373172000000000" Dst="2" />
+<file name="service.pwd" server="students.acg.edu/www/" local="130567206904921050" remote="130373172000000000" Dst="2" />
+<file name="services.cnf" server="students.acg.edu/www/" local="130567206904941051" remote="130373172000000000" Dst="2" />
+<file name="svcacl.cnf" server="students.acg.edu/www/" local="130567206904981053" remote="130373172000000000" Dst="2" />
+<file name="writeto.cnf" server="students.acg.edu/www/" local="130567206907021170" remote="130373172000000000" Dst="2" />
+</dwsync>

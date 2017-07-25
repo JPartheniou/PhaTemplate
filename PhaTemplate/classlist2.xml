@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<classlist>
+	<student>
+	   <name>Rozi-Maria Despina</name>
+	   <major>ITC</major>
+	</student>
+<student> 
+    <name>Mary Manousou</name> 
+	<major>ITC</major>
+</student>
+<student>  
+	 <name>Ioannis Partheniou</name> 
+	 <major>ITC</major>
+</student>
+<student> 
+     <name>Dionisis Kokkotos</name> 
+	 <major>ITC</major>
+</student> 
+<student>  
+     <name>Haris Geraris</name> 
+	 <major>ITC</major> 
+</student>
+</classlist>

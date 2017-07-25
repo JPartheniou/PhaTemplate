@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<style>
+#biri {
+	display:inline;
+	width:100%;
+	table-layout:fixed;
+}
+
+
+.vacation{
+	text-align:center;
+	border-bottom-color:#000;
+	display:inline-block;
+	vertical-align:middle;
+	margin: 20px;
+	color:#FFF;
+	padding:5px;
+	width:150px;
+	background-color:#004040;
+	border-radius:1em;
+    -moz-border-radius:1em;
+    -webkit-border-radius:1em;
+	-moz-transition:top 0.2s;
+	-o-transition:top 0.2s;
+	-webkit-transition:top 0.2s;
+	transition:top 0.2s;
+}
+.highlighted{
+	background-color::#563;
+	border-color:: 1px solid #967;
+	top: -30px;
+	}
+.price {
+	display: block;
+	}
+body{
+background-color:#666;
+	}
+
+</style>
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<h1>Packages</h1>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".vacation").click(function(event ){
+		$(this).toggleClass("highlighted");
+		
+		
+		
+		/*if($(this).hasClass('highlighted')){
+		$(this).animate({'top': '-10px'}, 200);
+		}else{
+			$(this).animate({'top': '0px'}, 200);
+		}*/
+	});
+});
+</script>
+<div id="vacations">
+    <ul id="biri">
+        <li class="vacation">
+            <h2>Hawaiian Vacation</h2>
+            <p class="price">From $333.99</p>
+        </li>
+        <li class="vacation">
+            <h2>European Vacation</h2>
+            <p class="price">From $333.99</p>
+        </li>
+        <li class="vacation">
+            <h2>Asian Vacation</h2>
+            <p class="price">From $333.99</p>
+        </li>
+    </ul>
+</div>
+
+
+</body>
+</html>

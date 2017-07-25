@@ -1,0 +1,42 @@
+<head>
+<meta charset=utf-8" />
+<title></title>
+<style>
+a.test{
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<a href="http://www.acg.edu"> Press to visit ACG web site </a> <br>
+<a href="http://www.acg.edu" class="test"> Press to visit ACG web site </a> <br> 
+<a href="http://www.acg.edu"> Press to visit ACG web site </a> <br>
+
+<script>
+$(document).ready(function(){
+$("a").click(function(event) {
+if ($("a").hasClass("test")){
+ $ ("a").removeClass("test");
+}
+else{
+$("a").addClass("test");
+}
+alert("A hyper link was clicked!");
+event.preventDefault();
+});
+$("#area").mouseover (function(event){
+$("#disp").toggle("slow");
+});
+$("#area").text("absbsbs");
+});
+</script>
+
+<h1 id="area"> Mouse Over Here</h1>
+<div id="disp">This is the magic trick</div>
+
+
+</body>
+</html>

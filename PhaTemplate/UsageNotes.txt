@@ -1,0 +1,40 @@
+This sample requires a database with a table called courses:
+Use the following script to create sample database tables:
+
+CREATE TABLE `courses` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `course_code` varchar(10) NOT NULL,
+  `course_title` varchar(50) NOT NULL,
+  `credits` int(11) NOT NULL,
+  `professor_id` int(11) NOT NULL,
+  `textbook_image` varchar(50) DEFAULT NULL,
+  `votes` int(11) NOT NULL DEFAULT '0',
+  `ratings` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+);
+
+--
+-- Dumping data for table `courses`
+--
+
+INSERT INTO `courses` (`id`, `course_code`, `course_title`, `credits`, `professor_id`, `textbook_image`, `votes`, `ratings`) VALUES
+(7, 'ITC2234', 'OOP', 1, 2, 'logo.gif', 44, 132),
+(46, 'CS2070', ' Introduction to Computers', 4, 1, 'a.gif', 64, 205),
+(47, 'MA1000', 'Mathematics', 2, 2, '', 16, 57),
+(48, 'EN1000', 'English', 3, 1, '', 11, 36);
+
+
+
+CREATE TABLE `professors` (
+  `professor_id` int(11) NOT NULL AUTO_INCREMENT,
+  `professor_name` varchar(50) NOT NULL,
+  PRIMARY KEY (`professor_id`)
+);
+
+--
+-- Dumping data for table `professors`
+--
+
+INSERT INTO `professors` (`professor_id`, `professor_name`) VALUES
+(1, 'Maira Kotsovoulou'),
+(2, 'Vassia Stefanou');

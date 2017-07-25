@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery </title> 
+		<style>
+		 html, body{
+			border: 0px none;
+			font: inherit;
+			padding: 0px;
+			margin: 0px;
+			vertical-align: baseline;
+			color: #FFF;
+			background: none repeat scroll 0% 0% #343B42;
+			font-family: KlavikaWeb, Helvetica, sans-serif;
+			min-width: 650px;
+       }
+	   
+	   h1 {
+		font-size: 3em;
+		line-height: 1.2em;
+		margin-top: 0.4em;
+		margin-bottom: 0.4em;
+		color: #FFF;
+		padding: 0px 24px;
+		}
+		
+	   #vacations ul li
+	   {
+		-moz-box-sizing: border-box;
+		background: none repeat scroll 0% 0% rgba(37, 43, 48, 0.5);
+		float: left;
+		min-height: 7em;
+		margin: 1em;
+		padding: 0.5em;
+		position: relative;
+		vertical-align: top;
+		width: 24.25%;
+		list-style: none outside none;
+       }
+		
+	   .price {
+			font-size: 1em;
+			font-weight: bold;
+			line-height: 1.2em;
+			color: #191D20;
+			background: none repeat scroll 0% 0% #82ADD8;
+			border: 1px solid #191D20;
+			display: block;
+			padding: 10px;
+			text-align: center;
+			cursor: pointer;
+        } 
+		.up {
+		bottom:30px;
+		}
+        </style>
+</head>
+
+<body>   
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script>
+	$( document ).ready(function() {
+		$(".vacation").mouseenter(function( event ) {
+				$(this).addClass( "up" );
+			});
+		 $(".vacation").mouseleave(function( event ) {
+			$(this).removeClass( "up" );
+		});
+				
+	});
+	</script>
+<h1>  PACKAGES </h1>
+<div id="vacations">
+<ul>
+	<li class="vacation">
+		<h2> Hawaiian Vacation</h2>
+		<span class="price">FROM $333.99</span>
+	</li>
+	<li class="vacation">
+		<h2> European Vacation</h2>
+		<span class="price">FROM $333.99</span>
+	</li>
+	<li class="vacation">
+		<h2> Japanian Vacation</h2>
+		<span class="price">FROM $333.99</span>
+	</li>
+</ul>
+</div>
+</body>
+</html>

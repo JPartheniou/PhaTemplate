@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products>
+	<Product id="1">
+		<Name> Coca Cola </Name>
+		<Size> 330ml </Size>
+		<Price> 0.60 </Price>
+		<Qty> 100 </Qty>
+	</Product>
+	
+	<Product id="2">
+		<Name> Pepsi </Name>
+		<Size> 330ml </Size>
+		<Price> 0.60 </Price>
+		<Qty> 3400 </Qty>
+	</Product>
+	
+	<Product id="3">
+		<Name> Fanta </Name>
+		<Size> 330ml </Size>
+		<Price> 0.58 </Price>
+		<Qty> 250 </Qty>
+	</Product>
+	
+	<Product id="4">
+		<Name> Lemonita </Name>
+		<Size> 330ml </Size>
+		<Price> 0.62 </Price>
+		<Qty> 68 </Qty>
+	</Product>
+</Products>

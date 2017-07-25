@@ -1,0 +1,30 @@
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 2;
+  border-top-right-radius: 2;
+  padding-right: 5px;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 2;
+  border-bottom-left-radius: 2;  
+  padding-left: 5px;
+}
+
+.modal .modal-footer .btn-group{
+padding-right: 10px;
+}

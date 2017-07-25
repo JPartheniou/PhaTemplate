@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROFESSORS>  
+
+	<PROFESSOR>
+		<ID>12343234</ID>
+		<NAME>Kotsovoulou Maira</NAME>
+		<Department>IT</Department>
+		<Rank>12</Rank>
+	</PROFESSOR>
+	
+	<PROFESSOR>
+		<ID>78347842</ID>
+		<NAME>Vogiatzis Dimitrios</NAME>
+		<Department>IT</Department>
+		<Rank>16</Rank>
+	</PROFESSOR>
+	
+	<PROFESSOR>
+		<ID>21894590</ID>
+		<NAME>Kiourtsoglou John</NAME>
+		<Department>CIS</Department>
+		<Rank>13</Rank>
+	</PROFESSOR>
+	
+	<PROFESSOR>
+		<ID>75923023</ID>
+		<NAME>Hotzoglou	Elias</NAME>
+		<Department>CIS</Department>
+		<Rank>3</Rank>
+	</PROFESSOR>
+	
+	<PROFESSOR>
+		<ID>93382950</ID>
+		<NAME>Varouhas Manos</NAME>
+		<Department>CIS</Department>
+		<Rank>16</Rank>
+	</PROFESSOR>
+	
+</PROFESSORS>

@@ -1,0 +1,2 @@
+<!-- RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$	index.php?SiteName=$1&PageName=$2 [NC,L] -->
