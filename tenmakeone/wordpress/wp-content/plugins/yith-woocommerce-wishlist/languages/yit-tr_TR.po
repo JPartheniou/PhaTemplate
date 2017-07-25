@@ -1,0 +1,879 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Wishlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-18 11:09+0100\n"
+"PO-Revision-Date: 2015-05-18 11:09+0100\n"
+"Last-Translator: Caner Öncel <caneroncel@gmail.com>\n"
+"Language-Team: Caner Öncel (@egonomik) <caneroncel@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8beta3\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-wcwl-admin-init.php:188
+#: ../includes/class.yith-wcwl-admin-init.php:1406
+#: ../includes/class.yith-wcwl-admin-init.php:1407
+#: ../includes/class.yith-wcwl-install.php:240
+msgid "Wishlist"
+msgstr "İstek Listesi"
+
+#: ../includes/class.yith-wcwl-admin-init.php:190
+#: ../includes/class.yith-wcwl-admin-init.php:290
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:191
+#: ../includes/class.yith-wcwl-admin-init.php:257
+msgid "Colors"
+msgstr "Renkler"
+
+#: ../includes/class.yith-wcwl-admin-init.php:192
+#: ../includes/class.yith-wcwl-admin-init.php:294
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:318
+msgid ""
+"WARNING: This plugin requires at least WooCommerce 2.2! Please, use this "
+"link to update it."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:321
+msgid "WARNING: This plugin requires at least WooCommerce 2.2!"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:326
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:342
+msgid "Wishlist Page"
+msgstr "İstek Listesi Sayfası"
+
+#: ../includes/class.yith-wcwl-admin-init.php:343
+msgid "Page contents: [yith_wcwl_wishlist]"
+msgstr "Sayfa içeriği: [yith_wcwl_wishlist]"
+
+#: ../includes/class.yith-wcwl-admin-init.php:918
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:921
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:922
+msgid "Discover the Advanced Features"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:923
+msgid ""
+"Upgrade to the PREMIUM VERSION\n"
+"of YITH WOOCOMMERCE WISHLIST to benefit from all features!"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:930
+msgid "Get Support and Pro Features"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:931
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:941
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:948
+msgid "Enable YITH Wishlist"
+msgstr "YITH İstek Listesi Etkin"
+
+#: ../includes/class.yith-wcwl-admin-init.php:949
+#, php-format
+msgid ""
+"Enable all plugin features. <strong>Be sure to select at least one option in "
+"the Wishlist page menu in %s.</strong> Also, please read the plugin <a href="
+"\"%s\" target=\"_blank\">documentation</a>."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:956
+#, fuzzy
+msgid "Default wishlist title"
+msgstr "İstek listesi başlığı"
+
+#: ../includes/class.yith-wcwl-admin-init.php:958
+#: ../includes/class.yith-wcwl-admin-init.php:959
+#: ../includes/class.yith-wcwl-admin-init.php:1218
+#: ../includes/class.yith-wcwl-admin-init.php:1219
+#, php-format
+msgid "My wishlist on %s"
+msgstr "%s üzerinde istek listem"
+
+#: ../includes/class.yith-wcwl-admin-init.php:967
+msgid "Position"
+msgstr "Pozisyon"
+
+#: ../includes/class.yith-wcwl-admin-init.php:968
+msgid ""
+"You can add the button in variable products only after the \"Add to Cart\" "
+"button or using the shortcode [yith_wcwl_add_to_wishlist]."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:974
+msgid "After \"Add to cart\""
+msgstr "\"Sepete Ekle\"den sonra"
+
+#: ../includes/class.yith-wcwl-admin-init.php:975
+msgid "After thumbnails"
+msgstr "Küçük resimlerden sonra"
+
+#: ../includes/class.yith-wcwl-admin-init.php:976
+msgid "After summary"
+msgstr "Özet bilgisinden sonra"
+
+#: ../includes/class.yith-wcwl-admin-init.php:977
+msgid "Use shortcode"
+msgstr "Kısa kod kullan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:982
+msgid "Redirect to cart"
+msgstr "Sepete yönlendir"
+
+#: ../includes/class.yith-wcwl-admin-init.php:983
+msgid ""
+"Redirect to cart page if \"Add to cart\" button is clicked in the wishlist "
+"page."
+msgstr ""
+"Eğer istek listesindeki bir ürün için \"Sepete Ekle\" butonuna tıklanırsa "
+"sepet sayfasına git."
+
+#: ../includes/class.yith-wcwl-admin-init.php:990
+msgid "Remove if added to the cart"
+msgstr "Sepete eklenmişse kaldır"
+
+#: ../includes/class.yith-wcwl-admin-init.php:991
+#, fuzzy
+msgid "Remove the product from the wishlist if it has been added to the cart."
+msgstr "Eğer ürün sepete eklenirse istek listesinden kaldır."
+
+#: ../includes/class.yith-wcwl-admin-init.php:998
+msgid "\"Add to Wishlist\" text"
+msgstr "\"İstek Listeme Ekle\" metni"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1000
+#: ../includes/class.yith-wcwl-admin-init.php:1001
+msgid "Add to Wishlist"
+msgstr "İstek Listeme Ekle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1006
+#, fuzzy
+msgid "\"Browse wishlist\" text"
+msgstr "İstek Listesini Görüntüle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1008
+#: ../includes/class.yith-wcwl-admin-init.php:1009
+#: ../includes/class.yith-wcwl-ui.php:81 ../includes/class.yith-wcwl-ui.php:82
+msgid "Browse Wishlist"
+msgstr "İstek Listesini Görüntüle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1014
+#, fuzzy
+msgid "\"Product already in wishlist\" text"
+msgstr "Ürün zaten istek listenizde."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1016
+#: ../includes/class.yith-wcwl-admin-init.php:1017
+#: ../includes/class.yith-wcwl-ui.php:82
+msgid "The product is already in the wishlist!"
+msgstr "Ürün zaten istek listenizde bulunuyor!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1022
+#, fuzzy
+msgid "\"Product added\" text"
+msgstr "Ürün eklendi!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1024
+#: ../includes/class.yith-wcwl-admin-init.php:1025
+#: ../includes/class.yith-wcwl-ui.php:81
+msgid "Product added!"
+msgstr "Ürün eklendi!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1030
+msgid "\"Add to Cart\" text"
+msgstr "\"Sepete Ekle\" metni"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1032
+#: ../includes/class.yith-wcwl-admin-init.php:1033
+msgid "Add to Cart"
+msgstr "Sepete Ekle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1038
+msgid "Show Unit price"
+msgstr "Birim Fiyatını Göster"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1039
+msgid "Show unit price for each product in wishlist"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1047
+msgid "Show \"Add to Cart\" button"
+msgstr "\"Sepete Ekle\" butonunu göster"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1048
+#, fuzzy
+msgid "Show \"Add to Cart\" button for each product in wishlist"
+msgstr "\"Sepete Ekle\" buton arkaplanı"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1056
+msgid "Show Stock status"
+msgstr "Stok durumunu göster"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1057
+msgid ""
+"Show \"In stock\" or \"Out of stock\" label for each product in wishlist"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1065
+msgid "Show Date of addition"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1066
+#, fuzzy
+msgid "Show the date when users have added a product to the wishlist"
+msgstr "Ürün istek listenize eklenirken bir hata meydana geldi."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1074
+#, fuzzy
+msgid "Add second remove button"
+msgstr "\"Sepete Ekle\" buton metni"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1075
+msgid "Add a second remove button in the last column, with extended label"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1098
+msgid "Styles"
+msgstr "Stiller"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1105
+msgid "Use buttons"
+msgstr "Butonları kullan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1106
+#, fuzzy
+msgid "Use buttons instead of simple anchors."
+msgstr "Basit bağlantılar yerine buton kullanın."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1113
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1121
+msgid "Use theme style"
+msgstr "Tema stilini kullan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1122
+msgid "Use the theme style."
+msgstr "Tema stilini kullan."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1129
+#, fuzzy
+msgid "Rounded buttons"
+msgstr "Butonları kullan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1130
+#, fuzzy
+msgid "Make button corners rounded"
+msgstr "Butonların köşelerini yuvarlaklaştır"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1137
+msgid "\"Add to Wishlist\" icon"
+msgstr "\"İstek Listeme Ekle\" simgesi"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1138
+msgid "Add an icon to the \"Add to Wishlist\" button"
+msgstr "\"İstek Listeme Ekle\" butonuna bir simge ekleyin"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1149
+msgid "\"Add to Cart\" icon"
+msgstr "\"Sepete Ekle\" simgesi"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1150
+msgid "Add an icon to the \"Add to Cart\" button"
+msgstr "\"Sepete Ekle\" butonuna bir simge ekleyin"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1169
+#, fuzzy
+msgid "Social Networks & Share"
+msgstr "Sosyal &amp; Paylaşım"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1176
+msgid "Share on Facebook"
+msgstr "Facebook'ta Paylaş"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1177
+#, fuzzy
+msgid "Show \"Share on Facebook\" button"
+msgstr "Facebook'ta Paylaş"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1184
+msgid "Tweet on Twitter"
+msgstr "Twitter'da Tweetle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1185
+#, fuzzy
+msgid "Show \"Tweet on Twitter\" button"
+msgstr "Twitter'da Tweetle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1192
+msgid "Pin on Pinterest"
+msgstr "Pinterest'te Pinle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1193
+#, fuzzy
+msgid "Show \"Pin on Pinterest\" button"
+msgstr "Pinterest'te Pinle"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1200
+msgid "Share on Google+"
+msgstr "Google+'da Paylaş"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1201
+#, fuzzy
+msgid "Show \"Share on Google+\" button"
+msgstr "Facebook'ta Paylaş"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1208
+msgid "Share by Email"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1209
+#, fuzzy
+msgid "Show \"Share by Email\" button"
+msgstr "\"Sepete Ekle\" butonunu göster"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1216
+#, fuzzy
+msgid "Social title"
+msgstr "Sosyal medya başlığı"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1224
+#, fuzzy
+msgid "Social text"
+msgstr "Sosyal medya metni"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1225
+#, fuzzy
+msgid ""
+"It will be used by Facebook, Twitter and Pinterest. Use <strong>%wishlist_url"
+"%</strong> where you want to show the URL of your wishlist."
+msgstr ""
+"Facebook, Twitter ve Pinterest için kullanılacak. İstek listesinin "
+"görünmesini istediğiniz yer için <strong>%wishlist_url%</strong> URL'ini "
+"kullanın."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1233
+#, fuzzy
+msgid "Social image URL"
+msgstr "Sosyal medya resim URL'i"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1248
+#, php-format
+msgid ""
+"If you want to take advantage of this feature, you could consider to "
+"purchase the %s."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1253
+msgid "YITH WooCommerce Frequently Bought Together Integration"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1260
+msgid "Enable slider in wishlist"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1261
+#, php-format
+msgid ""
+"Choose to enable product slider in wishlist page with linked products (<a "
+"href=\"%s\" class=\"thickbox\">Example</a>). %s"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1298
+#, fuzzy
+msgid "\"Add to wishlist\" button"
+msgstr "\"İstek Listeme Ekle\" buton metni"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1301
+#: ../includes/class.yith-wcwl-admin-init.php:1319
+#: ../includes/class.yith-wcwl-admin-init.php:1337
+#: ../includes/class.yith-wcwl-admin-init.php:1355
+#: ../includes/class.yith-wcwl-admin-init.php:1373
+msgid "Background"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1302
+#: ../includes/class.yith-wcwl-admin-init.php:1320
+#: ../includes/class.yith-wcwl-admin-init.php:1338
+#: ../includes/class.yith-wcwl-admin-init.php:1356
+#: ../includes/class.yith-wcwl-admin-init.php:1374
+msgid "Text"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1303
+#: ../includes/class.yith-wcwl-admin-init.php:1321
+#: ../includes/class.yith-wcwl-admin-init.php:1339
+#: ../includes/class.yith-wcwl-admin-init.php:1357
+#: ../includes/class.yith-wcwl-admin-init.php:1375
+msgid "Border"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1310
+#: ../includes/class.yith-wcwl-admin-init.php:1328
+#: ../includes/class.yith-wcwl-admin-init.php:1346
+#: ../includes/class.yith-wcwl-admin-init.php:1364
+msgid "Background (hover)"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1311
+#: ../includes/class.yith-wcwl-admin-init.php:1329
+#: ../includes/class.yith-wcwl-admin-init.php:1347
+#: ../includes/class.yith-wcwl-admin-init.php:1365
+msgid "Text (hover)"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1312
+#: ../includes/class.yith-wcwl-admin-init.php:1330
+#: ../includes/class.yith-wcwl-admin-init.php:1348
+#: ../includes/class.yith-wcwl-admin-init.php:1366
+msgid "Border (hover)"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1316
+#, fuzzy
+msgid "\"Add to Cart\" button"
+msgstr "\"Sepete Ekle\" buton metni"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1334
+msgid "\"Style 1\" button"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1352
+msgid "\"Style 2\" button"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1370
+#, fuzzy
+msgid "Wishlist table"
+msgstr "İstek listesi başlığı"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1379
+msgid "Headers"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1382
+msgid "Background color"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1472
+#, fuzzy
+msgid "Wishlist Activated"
+msgstr "İstek listesi başlığı"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1473
+#, php-format
+msgid ""
+"In the YIT Plugin tab you can find the Wishlist options. With this menu, you "
+"can access to all the settings of our plugins that you have activated. "
+"Wishlist is available in an outstanding PREMIUM version with many new "
+"options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1484
+#, fuzzy
+msgid "Wishlist Updated"
+msgstr "İstek Listesi Sayfası"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1485
+#, php-format
+msgid ""
+"From now on, you can find all the options of Wishlist under YIT Plugin -> "
+"Wishlist instead of WooCommerce -> Settings -> Wishlist, as in the previous "
+"version. When one of our plugins is updated, a new voice will be added to "
+"this menu. Wishlist has been updated with new available options, <a href=\"%s"
+"\">discover the PREMIUM version.</a>"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-init.php:365
+msgid ""
+"We are sorry, but this feature is available only if cookies are enabled on "
+"your browser."
+msgstr ""
+
+#: ../includes/class.yith-wcwl-init.php:366
+#, fuzzy
+msgid "Product correctly added to cart"
+msgstr "Produkt erfolgreich im Warenkorb eingefügt "
+
+#: ../includes/class.yith-wcwl-install.php:239
+msgctxt "page_slug"
+msgid "wishlist"
+msgstr "istek-listem"
+
+#: ../includes/class.yith-wcwl-shortcode.php:242
+#: ../includes/class.yith-wcwl-ui.php:161
+msgid "Share on:"
+msgstr "Paylaşım seçenekleri:"
+
+#: ../includes/class.yith-wcwl-ui.php:116
+#: ../includes/class.yith-wcwl-ui.php:199
+msgid "Select options"
+msgstr "Seçenekler"
+
+#: ../includes/class.yith-wcwl-ui.php:165 ../templates/share.php:16
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../includes/class.yith-wcwl-ui.php:168 ../templates/share.php:22
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../includes/class.yith-wcwl-ui.php:177
+msgid "email"
+msgstr ""
+
+#: ../includes/class.yith-wcwl.php:192
+#, fuzzy
+msgid "An error occurred while adding products to the wishlist."
+msgstr "Ürün istek listenize eklenirken bir hata meydana geldi."
+
+#: ../includes/class.yith-wcwl.php:276
+#, fuzzy
+msgid "An error occurred while adding products to wishlist."
+msgstr "Ürün istek listenize eklenirken bir hata meydana geldi."
+
+#: ../includes/class.yith-wcwl.php:291
+msgid "The \"Remove\" option now does not require any parameter"
+msgstr ""
+
+#: ../includes/class.yith-wcwl.php:325
+#, fuzzy
+msgid "An error occurred while removing products from the wishlist"
+msgstr "Ürün istek listenizden kaldırılırken bir hata meydana geldi."
+
+#: ../includes/class.yith-wcwl.php:603
+msgid "You need to log in before creating a new wishlist"
+msgstr ""
+
+#: ../includes/class.yith-wcwl.php:1312
+msgid "Product successfully removed."
+msgstr "Ürün başarıyla kaldırıldı."
+
+#: ../includes/class.yith-wcwl.php:1316
+msgid "Error. Unable to remove the product from the wishlist."
+msgstr "Hata. Ürün istek listenizden kaldırılamadı. "
+
+#: ../includes/class.yith-wcwl.php:1320 ../templates/wishlist-view.php:270
+msgid "No products were added to the wishlist"
+msgstr "İstek listesinde herhangi bir ürün bulunmuyor"
+
+#: ../includes/class.yith-wcwl.php:1362
+msgid "An error as occurred."
+msgstr ""
+
+#: ../init.php:129
+msgid ""
+"YITH WooCommerce Wishlist is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: ../init.php:139
+msgid ""
+"You can't activate the free version of YITH WooCommerce Wishlist while you "
+"are using the premium one."
+msgstr ""
+
+#: ../templates/share.php:28
+#, fuzzy
+msgid "Pinterest"
+msgstr "Pinterest'te Pinle"
+
+#: ../templates/share.php:34
+#, fuzzy
+msgid "Google+"
+msgstr "Google+'da Paylaş"
+
+#: ../templates/share.php:40
+msgid "Email"
+msgstr ""
+
+#: ../templates/wishlist-view.php:30
+#, fuzzy
+msgid "Edit title"
+msgstr "İstek listesi başlığı"
+
+#: ../templates/wishlist-view.php:39
+msgid "Save"
+msgstr ""
+
+#: ../templates/wishlist-view.php:43
+msgid "Cancel"
+msgstr ""
+
+#: ../templates/wishlist-view.php:88
+msgid "Product Name"
+msgstr "Ürün Adı"
+
+#: ../templates/wishlist-view.php:95
+msgid "Unit Price"
+msgstr "Birim Fiyatı"
+
+#: ../templates/wishlist-view.php:108
+msgid "Stock Status"
+msgstr "Stok Durumu"
+
+#: ../templates/wishlist-view.php:154 ../templates/wishlist-view.php:260
+msgid "Remove this product"
+msgstr "Bu ürünü kaldır"
+
+#: ../templates/wishlist-view.php:184
+msgid "Free!"
+msgstr "Ücretsiz!"
+
+#: ../templates/wishlist-view.php:195
+msgid "Out of Stock"
+msgstr "Stok Dışı"
+
+#: ../templates/wishlist-view.php:198
+msgid "In Stock"
+msgstr "Stokta"
+
+#: ../templates/wishlist-view.php:209
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: ../templates/wishlist-view.php:228
+msgid "Move"
+msgstr ""
+
+#: ../templates/wishlist-view.php:240
+#, fuzzy
+msgid "Shared"
+msgstr "Paylaşım seçenekleri:"
+
+#: ../templates/wishlist-view.php:243
+msgid "Private"
+msgstr ""
+
+#: ../templates/wishlist-view.php:246
+msgid "Public"
+msgstr ""
+
+#: ../templates/wishlist-view.php:260
+msgid "Remove"
+msgstr ""
+
+#: ../templates/wishlist-view.php:287
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: ../templates/wishlist-view.php:295 ../templates/wishlist-view.php:337
+msgid "Ask for an estimate"
+msgstr ""
+
+#: ../yit-common/yith-panel.php:406
+msgid "Select a date"
+msgstr "Tarih Seçimi"
+
+#: ../yit-common/yith-panel.php:407
+msgid "Hours"
+msgstr "Saat"
+
+#: ../yit-common/yith-panel.php:408 ../yit-common/yith-panel.php:409
+msgid "Minutes"
+msgstr "Dakika"
+
+#: ../yit-common/yith-panel.php:417
+msgid "Upload"
+msgstr "Yükle"
+
+#: ../yit-common/yith-panel.php:444
+msgid "px"
+msgstr "px"
+
+#: ../yit-common/yith-panel.php:445
+msgid "em"
+msgstr "em"
+
+#: ../yit-common/yith-panel.php:446
+msgid "pt"
+msgstr "pt"
+
+#: ../yit-common/yith-panel.php:447
+msgid "rem"
+msgstr "rem"
+
+#: ../yit-common/yith-panel.php:457
+msgid "Select a font family"
+msgstr "Font ailesi seçimi"
+
+#: ../yit-common/yith-panel.php:465
+msgid "Regular"
+msgstr "Normal"
+
+#: ../yit-common/yith-panel.php:466
+msgid "Bold"
+msgstr "Kalın"
+
+#: ../yit-common/yith-panel.php:467
+msgid "Extra bold"
+msgstr "Ekstra kalın"
+
+#: ../yit-common/yith-panel.php:468
+msgid "Italic"
+msgstr "İtalik"
+
+#: ../yit-common/yith-panel.php:469
+msgid "Italic bold"
+msgstr "İtalik Kalın"
+
+#: ../yit-common/yith-panel.php:481
+msgid "Click to preview"
+msgstr "Önizleme için tıklayın"
+
+#, fuzzy
+#~ msgid "%s Settings"
+#~ msgstr "Ayarlar"
+
+#, fuzzy
+#~ msgid "layout settings"
+#~ msgstr "Ayarlar"
+
+#, fuzzy
+#~ msgid "Plugin Settings"
+#~ msgstr "Ayarlar"
+
+#, fuzzy
+#~ msgid "Reset to Default"
+#~ msgstr "Sepete yönlendir"
+
+#, fuzzy
+#~ msgid "Settings saved"
+#~ msgstr "Ayarlar"
+
+#, fuzzy
+#~ msgid "Settings reset"
+#~ msgstr "Ayarlar"
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr "Tarih Seçimi"
+
+#, fuzzy
+#~ msgid "File Upload"
+#~ msgstr "Yükle"
+
+#, fuzzy
+#~ msgid "Custom Icon"
+#~ msgstr "Özel CSS"
+
+#, fuzzy
+#~ msgid "Click to toggle"
+#~ msgstr "Önizleme için tıklayın"
+
+#, fuzzy
+#~ msgid "Insert the title for the field."
+#~ msgstr "Font ailesi seçimi"
+
+#, fuzzy
+#~ msgid "Select the type for this field."
+#~ msgstr "Font ailesi seçimi"
+
+#, fuzzy
+#~ msgid "Add options "
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~ msgid "Add option"
+#~ msgstr "\"Sepete Ekle\" simgesi"
+
+#, fuzzy
+#~ msgid "Selected"
+#~ msgstr "Tarih Seçimi"
+
+#, fuzzy
+#~ msgid "Delete option"
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~ msgid "Add to gallery"
+#~ msgstr "Sepete Ekle"
+
+#~ msgid "Product already in the wishlist."
+#~ msgstr "Ürün zaten istek listenizde."
+
+#, fuzzy
+#~ msgid "Button rounded corners"
+#~ msgstr "Yuvarlak köşeli butonlar"
+
+#~ msgid "Cannot add to the cart as product is Out of Stock!"
+#~ msgstr "Stokta bulunmayan ürünler istek listesine eklenemez!"
+
+#~ msgid "\"Add to Wishlist\" button background"
+#~ msgstr "\"İstek Listeme Ekle\" buton arkaplanı"
+
+#~ msgid "\"Add to Wishlist\" button border"
+#~ msgstr "\"İstek Listeme Ekle\" buton kenarlığı"
+
+#~ msgid "\"Add to Wishlist\" button background (hover)"
+#~ msgstr "\"İstek Listeme Ekle\" buton arkaplanı (üzerine gelindiğinde)"
+
+#~ msgid "\"Add to Wishlist\" button text (hover)"
+#~ msgstr "\"İstek Listeme Ekle\" buton metni (üzerine gelindiğinde)"
+
+#~ msgid "\"Add to Wishlist\" button border (hover)"
+#~ msgstr "\"İstek Listeme Ekle\" buton kenarlığı (üzerine gelindiğinde)"
+
+#~ msgid "\"Add to Cart\" button border"
+#~ msgstr "\"Sepete Ekle\" buton kenarlığı"
+
+#~ msgid "\"Add to Cart\" button background (hover)"
+#~ msgstr "\"Sepete Ekle\" buton arkaplanı (üzerine gelindiğinde)"
+
+#~ msgid "\"Add to Cart\" button text (hover)"
+#~ msgstr "\"Sepete Ekle\" buton metni (üzerine gelindiğinde)"
+
+#~ msgid "\"Add to Cart\" button border (hover)"
+#~ msgstr "\"Sepete Ekle\" buton kenarlığı (üzerine gelindiğinde)"
+
+#~ msgid "Wishlist table background"
+#~ msgstr "İstek listesi tablo arkaplanı"
+
+#~ msgid "Wishlist table text"
+#~ msgstr "İstek listesi tablo metni"
+
+#~ msgid "Wishlist table border"
+#~ msgstr "İstek listesi tablo kenar çizgisi"
+
+#~ msgid "Docs"
+#~ msgstr "Dökümanlar"
+
+#~ msgid "Use cookies"
+#~ msgstr "Çerezleri kullan"
+
+#~ msgid "View Cart &rarr;"
+#~ msgstr "Warenkorb ansehen"

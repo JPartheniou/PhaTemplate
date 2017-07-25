@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Using Ajax with XML</title>
+    <script language = "javascript">
+      var colors;
+      var XMLHttpRequestObject = false;
+
+      if (window.XMLHttpRequest) {
+        XMLHttpRequestObject = new XMLHttpRequest();
+        XMLHttpRequestObject.overrideMimeType("text/xml") ;
+      } else if (window.ActiveXObject) {
+        XMLHttpRequestObject = new ActiveXObject ("Microsoft.XMLHTTP");
+      }
+	  
+      function getData()
+      {
+        if(XMLHttpRequestObject) {
+          XMLHttpRequestObject.open("GET", "colors.xml");
+          var outputDiv = document.getElementById('targetDiv');
+		
+
+          XMLHttpRequestObject.onreadystatechange = function()
+          {
+            if (XMLHttpRequestObject.readyState == 4 &&
+              XMLHttpRequestObject.status == 200) {
+              var xmlDocument = XMLHttpRequestObject.responseXML;
+              colors=xmlDocument.getElementsByTagName("color");
+         
+              for (row =0; row < colors.length; row++)
+              {
+                outputDiv.innerHTML += "<h3>" +  
+				        colors[row].firstChild.data + "</h3>"
+              }
+			  
+            }
+          }
+
+          XMLHttpRequestObject.send(null);
+        }
+      }
+
+    </script>
+  </head>
+
+  <body>
+
+    <h1>Using Ajax with XML</h1>
+
+    <form>
+      <input type = "button" value = "Fetch the Colors"
+        onclick = "getData()"> 
+</form>
+<div id="targetDiv"></div>
+    
+<div id="messageDiv"></div>
+  </body>
+
+</html>

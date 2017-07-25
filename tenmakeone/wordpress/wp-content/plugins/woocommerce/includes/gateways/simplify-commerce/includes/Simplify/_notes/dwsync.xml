@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AccessToken.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Authentication.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="CardToken.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Chargeback.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Constants.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Coupon.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Customer.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Deposit.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Event.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Exceptions.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Http.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Invoice.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="InvoiceItem.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Object.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Payment.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="PaymentsApi.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Plan.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Refund.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="ResourceList.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Subscription.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+<file name="Webhook.php" server="students.acg.edu/www/" local="130801537800000000" remote="130801537800000000" Dst="2" />
+</dwsync>
